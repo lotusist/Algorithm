@@ -22,3 +22,10 @@ for _ in range(T):
             print((c**3)%10)
         else:
             print((c**4)%10)
+            
+# what the time was over
+# import sys
+# T = int(input())
+# for _ in range(T):
+#     a, b = map(int, sys.stdin.readline().split())
+#     print(a**b%10 if a**b%10 != 0 else 10)
